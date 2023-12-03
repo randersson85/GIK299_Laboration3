@@ -25,7 +25,12 @@ namespace GIK299_L3
 
         public override string ToString()
         {
-            return base.ToString();
+            return $"Namn: {Name}" +
+                   $"\n Kön: {Gender}" +
+                   $"\n Ögonfärg {EyeColor}" +
+                   $"\n Hår: {Hair.Haircolor},{Hair.HairLength}" +
+                   $"\n Födelsedatum: {BirthDate:yyyy/MM/dd}";
+
         }
     }
 }
