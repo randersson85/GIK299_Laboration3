@@ -14,8 +14,6 @@
 
             Console.WriteLine(person);
             Console.WriteLine();
-            Console.Write("Tryck enter för att avsluta");
-            Console.ReadLine();
         }
     }
 }
