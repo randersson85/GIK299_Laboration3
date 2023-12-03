@@ -4,11 +4,13 @@
     {
         static void Main(string[] args)
         {
-            string name = "Max";
+            string name = "Alex";
             Gender gender = Gender.ickeBinär;
-            Hair hair = new Hair { Haircolor = "Svart", HairLength = "Kort" };
             string eyeColor = "Blå";
+            Hair hair = new Hair { Haircolor = "Svart", HairLength = "Kort" };
             DateTime birthdate = new DateTime(2009, 2, 25);
+
+            Person person = new Person(name, gender, eyeColor, hair, birthdate);
         }
     }
 }
