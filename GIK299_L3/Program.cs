@@ -12,7 +12,7 @@
 
             Person person = new Person(name, gender, eyeColor, hair, birthdate);
 
-            Console.WriteLine(person);
+            Console.WriteLine(person.ToString());
             Console.WriteLine();
         }
     }
