@@ -8,7 +8,7 @@ namespace GIK299_L3
 {
     public struct Hair
     {
-        public string Length;
+        public string HairLength;
         public string Haircolor;
     }
 }

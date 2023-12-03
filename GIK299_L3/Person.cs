@@ -22,5 +22,10 @@ namespace GIK299_L3
             Hair = hair;
             BirthDate = birthDate;
         }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }

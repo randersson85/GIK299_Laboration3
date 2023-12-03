@@ -10,7 +10,7 @@ namespace GIK299_L3
     {
         kvinna, 
         man, 
-        icke-binär, 
+        ickeBinär, 
         annan
     }
 }
