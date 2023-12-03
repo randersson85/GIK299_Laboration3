@@ -25,11 +25,11 @@ namespace GIK299_L3
 
         public override string ToString()
         {
-            return $"Namn: {Name}" +
-                   $"\n Kön: {Gender}" +
-                   $"\n Ögonfärg {EyeColor}" +
-                   $"\n Hår: {Hair.Haircolor},{Hair.HairLength}" +
-                   $"\n Födelsedatum: {BirthDate:yyyy/MM/dd}";
+            return $"Namn:\t \t {Name}" +
+                   $"\nKön:\t \t {Gender}" +
+                   $"\nÖgonfärg:\t {EyeColor}" +
+                   $"\nHår:\t \t {Hair.Haircolor},{Hair.HairLength}" +
+                   $"\nFödelsedatum:\t {BirthDate:yyyy/MM/dd}";
 
         }
     }

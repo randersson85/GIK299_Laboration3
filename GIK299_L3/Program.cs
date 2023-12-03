@@ -11,6 +11,11 @@
             DateTime birthdate = new DateTime(2009, 2, 25);
 
             Person person = new Person(name, gender, eyeColor, hair, birthdate);
+
+            Console.WriteLine(person);
+            Console.WriteLine();
+            Console.Write("Tryck enter för att avsluta");
+            Console.ReadLine();
         }
     }
 }
